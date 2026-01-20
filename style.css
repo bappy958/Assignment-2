@@ -46,23 +46,6 @@ html {
 .nav-item:hover {
     color: #22d3ee; 
 }
-/*about section*/
-#about p {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-    color: #cbd5e1;
-    max-width: 800px;
-    margin: 0 auto;
-}
-#paragraph {
-    text-decoration-style: solid;
-    display: flex;
-    justify-content: center;
-}
-#about{
-   background-color: rgba(26, 11, 46, 1)
-}
-
 
 /* ============ MOBILE MENU LOGIC ============ */
 
