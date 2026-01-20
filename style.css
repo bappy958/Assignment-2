@@ -18,6 +18,17 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Podcast Circle Glow Animation */
+@keyframes subtle-pulse {
+    0% { box-shadow: 0 0 0 0 rgba(34, 211, 238, 0.4); }
+    70% { box-shadow: 0 0 0 15px rgba(34, 211, 238, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(34, 211, 238, 0); }
+}
+
+.podcast-glow {
+    animation: subtle-pulse 2s infinite;
+}
+
 /* ============ COMPONENT CLASSES (Tailwind Mix) ============ */
 .btn-gradient {
     background-image: linear-gradient(to right,  #F7E93F, #FB09B4, #9100F8);
